@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F6AA3792-9882-4959-BA47-5DE181E45F34"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6773CDBF-CAD4-4700-AE4C-7A07716B38E7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelComics/ViewControllers/ComicInformationTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "headerView(with:and:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DBD1799A-2749-40FB-BF32-F56E4667F0BB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelComics/ViewControllers/ComicInformationTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "headerView(with:and:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "40BE5C24-9A7D-4FF6-AA46-39B6644EE4C2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelComicsTests/MarvelComicsTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "testEnvironmentSetup()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "40BE5C24-9A7D-4FF6-AA46-39B6644EE4C2 - 5a8466a0455e43a1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarvelComicsTests.MarvelComicsTests.environmentInitializationTest() -&gt; ()"
+                  moduleName = "MarvelComicsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/roshanlamichhane/Desktop/MarvelComics/MarvelComicsTests/MarvelComicsTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "62">
+               </Location>
+               <Location
+                  uuid = "40BE5C24-9A7D-4FF6-AA46-39B6644EE4C2 - c247ca376d9b4493"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarvelComicsTests.MarvelComicsTests.environmentInitializationTest() throws -&gt; ()"
+                  moduleName = "MarvelComicsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/roshanlamichhane/Desktop/MarvelComics/MarvelComicsTests/MarvelComicsTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "66">
+               </Location>
+               <Location
+                  uuid = "40BE5C24-9A7D-4FF6-AA46-39B6644EE4C2 - 926e6ab8ec32dc9f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarvelComicsTests.MarvelComicsTests.testExample() throws -&gt; ()"
+                  moduleName = "MarvelComicsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/roshanlamichhane/Desktop/MarvelComics/MarvelComicsTests/MarvelComicsTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "66">
+               </Location>
+               <Location
+                  uuid = "40BE5C24-9A7D-4FF6-AA46-39B6644EE4C2 - dddc36d647bedc53"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarvelComicsTests.MarvelComicsTests.testEnvironmentSetup() throws -&gt; ()"
+                  moduleName = "MarvelComicsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/roshanlamichhane/Desktop/MarvelComics/MarvelComicsTests/MarvelComicsTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "66">
+               </Location>
+               <Location
+                  uuid = "40BE5C24-9A7D-4FF6-AA46-39B6644EE4C2 - dddc36d647bedc72"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarvelComicsTests.MarvelComicsTests.testEnvironmentSetup() throws -&gt; ()"
+                  moduleName = "MarvelComicsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/roshanlamichhane/Desktop/MarvelComics/MarvelComicsTests/MarvelComicsTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "62">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AA19A9BF-C09C-48FF-A91E-206E426FDA92"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelComicsTests/MarvelComicsTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "testEnvironmentSetup()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AA19A9BF-C09C-48FF-A91E-206E426FDA92 - 926e6ab8ec32dd23"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarvelComicsTests.MarvelComicsTests.testExample() throws -&gt; ()"
+                  moduleName = "MarvelComicsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/roshanlamichhane/Desktop/MarvelComics/MarvelComicsTests/MarvelComicsTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "170">
+               </Location>
+               <Location
+                  uuid = "AA19A9BF-C09C-48FF-A91E-206E426FDA92 - 926e6ab8ec32dd23"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarvelComicsTests.MarvelComicsTests.testExample() throws -&gt; ()"
+                  moduleName = "MarvelComicsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/roshanlamichhane/Desktop/MarvelComics/MarvelComicsTests/MarvelComicsTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "154">
+               </Location>
+               <Location
+                  uuid = "AA19A9BF-C09C-48FF-A91E-206E426FDA92 - dddc36d647bec3df"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarvelComicsTests.MarvelComicsTests.testEnvironmentSetup() throws -&gt; ()"
+                  moduleName = "MarvelComicsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/roshanlamichhane/Desktop/MarvelComics/MarvelComicsTests/MarvelComicsTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "170">
+               </Location>
+               <Location
+                  uuid = "AA19A9BF-C09C-48FF-A91E-206E426FDA92 - dddc36d647bec3df"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarvelComicsTests.MarvelComicsTests.testEnvironmentSetup() throws -&gt; ()"
+                  moduleName = "MarvelComicsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/roshanlamichhane/Desktop/MarvelComics/MarvelComicsTests/MarvelComicsTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "188">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "09187212-5294-4952-A542-2D2164FCD036"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarvelComicsUITests/MarvelComicsUITests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "testCharactersTableView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,11 @@
+//
+//  ApiConfig.xcconfig
+//  MarvelComics
+//
+//  Created by Roshan Lamichhane on 8/9/22.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+PRIVATE_API_KEY = a44c3a2fdb7c5759209d7bb2b9876a6648352710
