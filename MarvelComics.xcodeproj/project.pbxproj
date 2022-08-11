@@ -67,7 +67,6 @@
 		562CB11E28A2F38600CE7C0B /* MarvelCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelCharacter.swift; sourceTree = "<group>"; };
 		562CB12428A309A200CE7C0B /* NetworkingClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingClient.swift; sourceTree = "<group>"; };
 		562CB12628A3552100CE7C0B /* MarvelCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelCharacters.swift; sourceTree = "<group>"; };
-		562CB12928A35C9000CE7C0B /* ApiConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ApiConfig.xcconfig; sourceTree = "<group>"; };
 		562CB12A28A35D8D00CE7C0B /* ApiKeyLocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiKeyLocator.swift; sourceTree = "<group>"; };
 		562CB16828A40EB000CE7C0B /* MarvelCharactersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelCharactersViewModel.swift; sourceTree = "<group>"; };
 		562CB16B28A43D8400CE7C0B /* ComicBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicBook.swift; sourceTree = "<group>"; };
@@ -133,7 +132,6 @@
 				562CB0E728A2E61900CE7C0B /* Assets.xcassets */,
 				562CB0E928A2E61900CE7C0B /* LaunchScreen.storyboard */,
 				562CB0EC28A2E61900CE7C0B /* Info.plist */,
-				562CB12928A35C9000CE7C0B /* ApiConfig.xcconfig */,
 			);
 			path = MarvelComics;
 			sourceTree = "<group>";
@@ -412,7 +410,6 @@
 /* Begin XCBuildConfiguration section */
 		562CB10328A2E61A00CE7C0B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 562CB12928A35C9000CE7C0B /* ApiConfig.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
