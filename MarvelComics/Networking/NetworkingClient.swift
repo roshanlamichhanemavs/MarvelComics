@@ -15,8 +15,13 @@ class NetworkClient {
         self.networkRequest = networkRequest
     }
     
+    // MARK: - Alamofire
+    
+    /**
+         Creates static network request 
+     */
     func makeNetworkRequest(with completionHandler: @escaping (MarvelCharacters?, Error?) -> Void) {
-        _ = AF.request(networkRequest.url, method: networkRequest.method, parameters: networkRequest.queryParameters, encoding: URLEncoding.default) .validate().responseDecodable(of: MarvelCharacters.self) { response in
+        AF.request(networkRequest.url, method: networkRequest.method, parameters: networkRequest.queryParameters, encoding: URLEncoding.default) .validate().responseDecodable(of: MarvelCharacters.self) { response in
             switch response.result {
             case .success(let characters):
                 completionHandler(characters, nil)

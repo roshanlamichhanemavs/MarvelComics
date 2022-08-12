@@ -7,6 +7,7 @@
 
 import Foundation
 
+// MARK: - Sets up environment configuratio
 struct Environment {
     static let baseURL = "https://gateway.marvel.com"
     static let publicApiKey = "7f1f1e090d36f4b5e99625603acdb813"
@@ -31,7 +32,13 @@ struct Environment {
         }
     }
     
-    
+    /**
+         Resolves information related to constructing the api request
+     - parameters:
+        - endpoint: String endpoint appeneded to base url
+        - `parameters`: String parameter passed on the url
+        - queryParameters: [URLQueryItem] passed as query items
+     */
     func resolvedURL(for endpoint: Environment.Endpoint, resolvingParameters parameters: [Environment.Parameter]? = nil, queryParameters: [URLQueryItem]? = nil) -> NetworkRequest? {
         var rawEndPoint = endpoint.rawValue
         parameters?.forEach({ parameters in
@@ -40,7 +47,7 @@ struct Environment {
         
         let fullURLString = "\(Self.baseURL)\(rawEndPoint)"
         let timestampForRequest = Int(Date().timeIntervalSince1970)
-        /* "a44c3a2fdb7c5759209d7bb2b9876a6648352710" */
+        // Separately provide private api key because of security concern
         guard let hashedKey = "\(timestampForRequest)\(ApiKeyLocator.privateApiKey)\(Self.publicApiKey)".convertTomd5() else {
             fatalError("Cannot proceed without valid api keys")
         }

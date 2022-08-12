@@ -7,6 +7,7 @@
 
 import Foundation
 
+// MARK: - Construct Specific Marvel Character
 struct MarvelCharacter: Decodable {
     var characterIdentifer: Int
     var name: String
@@ -57,7 +58,7 @@ extension MarvelCharacter {
     }
 }
 
-
+// Confirming to Comparable to allow sorting of characters
 extension MarvelCharacter: Comparable {
     static func < (lhs: MarvelCharacter, rhs: MarvelCharacter) -> Bool {
         lhs.characterIdentifer < rhs.characterIdentifer

@@ -10,14 +10,14 @@ import Nuke
 
 class ComicInformationViewController: UIViewController {
     
-    let tableCellIdentifier = "comicCell"
-    let padding = 8.0
+    private let tableCellIdentifier = "comicCell"
+    private let padding = 8.0
     
     @IBOutlet weak private var comicImageView: UIImageView!
     @IBOutlet weak private var descriptionLabel: UILabel!
     @IBOutlet weak private var tableView: UITableView!
     
-    public var marvelComics: MarvelCharacter?
+    private var marvelComics: MarvelCharacter?
     
     override func viewDidLoad() {
        
@@ -35,6 +35,7 @@ class ComicInformationViewController: UIViewController {
         guard let url = marvelComics?.imageURLPathWithExtension else {
             return
         }
+        // Nuke downloads the image and caches
         Nuke.loadImage(with: url, into: comicImageView)
     }
     

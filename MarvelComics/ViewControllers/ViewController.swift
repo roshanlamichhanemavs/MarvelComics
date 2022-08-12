@@ -9,12 +9,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    let tableCellIdentifier = "cell"
-    let identifier = "ComicInformationViewController"
-    let storyboardIdentifier = "Main"
-    let tableViewAccessibilityIdentifier = "charactersTable"
+    private let tableCellIdentifier = "cell"
+    private let identifier = "ComicInformationViewController"
+    private let storyboardIdentifier = "Main"
+    private let tableViewAccessibilityIdentifier = "charactersTable"
     
-    @IBOutlet weak var tableView: UITableView!
+    @IBOutlet private weak var tableView: UITableView!
     private var marvelCharacters: [MarvelCharacter] = []
   
     override func viewDidLoad() {
@@ -35,6 +35,7 @@ class ViewController: UIViewController {
 
 extension ViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        // Navigate to description viewcontroller
         let storyBoard = UIStoryboard(name: storyboardIdentifier, bundle: .main)
         guard let comicsTableViewController  = storyBoard.instantiateViewController(withIdentifier: identifier) as? ComicInformationViewController else { return }
         comicsTableViewController.configure(with: marvelCharacters[indexPath.row])
