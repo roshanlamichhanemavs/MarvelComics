@@ -9,6 +9,8 @@ Network Manager is created separately to request and handle the corresponding re
 Using two third party libraries:
     (1) Alamofire (Requests and handles network response)
     (2) Nuke (Download and cache images)
+    
+Separated ViewModel from viewcontrollers.
 
 Separated private api key config file.
 ##Please add api config file separately and add it to configuration (Will add file in email)
