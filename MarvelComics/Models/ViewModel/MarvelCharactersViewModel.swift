@@ -8,11 +8,9 @@
 import Foundation
 
 class MarvelCharactersViewModel {
-    typealias MarvelCharacterInformation = ([MarvelCharacter]) -> Void
+    typealias MarvelCharacterInformation = ([MarvelCharacter]?, Error?) -> Void
     let environment: Environment
     let endPoint: Environment.Endpoint
-
-   
    
     init(environment: Environment, endPoint: Environment.Endpoint) {
         self.environment = environment
@@ -29,11 +27,11 @@ class MarvelCharactersViewModel {
           let networkClient = NetworkClient(networkRequest: resolvedURL)
         networkClient.makeNetworkRequest(with: { marvelCharacters, error  in
             guard let marvelCharacters = marvelCharacters?.characters else {
-                debugPrint("Handle error or nil")
+                completionHandler(nil, error)
                 return
             }
             
-            completionHandler(marvelCharacters.sorted())
+            completionHandler(marvelCharacters.sorted(), nil)
         })
     }
     

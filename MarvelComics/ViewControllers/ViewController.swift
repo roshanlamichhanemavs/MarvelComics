@@ -25,7 +25,11 @@ class ViewController: UIViewController {
         tableView.isAccessibilityElement = true
         
         let viewModel = MarvelCharactersViewModel(environment: Environment(), endPoint: .character)
-        viewModel.fetchMarvelCharacters { [weak self ]information in
+        viewModel.fetchMarvelCharacters { [weak self] information, errorInformation in
+            guard let information = information else {
+                // Handle error here
+                return
+            }
             self?.marvelCharacters = information
             self?.tableView.reloadData()
         }
